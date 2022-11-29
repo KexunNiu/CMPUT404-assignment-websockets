@@ -63,7 +63,9 @@ Contributors
 Refernces
 ============
 class Clients, functions read_ws, subscribe_socket, send_all_json, send_all
+
 https://github.com/uofa-cmput404/cmput404-slides/blob/master/examples/WebSocketsExamples/chat.py
 
 Generate random colors
+
 https://css-tricks.com/snippets/javascript/random-hex-color/
