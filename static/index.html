@@ -56,7 +56,7 @@ function drawCircle(context,entity) {
         //reference https://css-tricks.com/snippets/javascript/random-hex-color/
         fillStyle = '#'+Math.floor(Math.random()*16777215).toString(16)
         strokeStyle = fillStyle;
-        arc(x, y, (entity["radius"])?entity["radius"]:50, 0, 2.0 * Math.PI, false);  
+        arc(x, y, (entity["radius"])?entity["radius"]:50, 0, 2.0 * Math.PI, false);
         stroke();
         fill()                           
     }
@@ -75,7 +75,7 @@ function prepEntity(entity) {
 function clearFrame() {
     with(context) {
 	moveTo(0,0);
-	fillStyle = "#f5d1b5";
+	fillStyle = '#'+Math.floor(Math.random()*16777215).toString(16);
 	fillRect(0,0,W,H);
     }
 
