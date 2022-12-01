@@ -69,3 +69,9 @@ https://github.com/uofa-cmput404/cmput404-slides/blob/master/examples/WebSockets
 Generate random colors
 
 https://css-tricks.com/snippets/javascript/random-hex-color/
+
+
+Collaborators
+==============
+kli1
+wcao4
