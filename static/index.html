@@ -261,6 +261,7 @@ function wsSetup() {
     socket.onopen = function() {
         //XXX: TODO What are you going to do here?
         debug("WebSocket is OnOpening.");
+        update();
     };
     socket.onerror = function(msg) {
         debug("WebSocket Error:" + msg.data);
@@ -273,6 +274,9 @@ function wsSetup() {
             for (let i in message){
                 world[i] = message[i]
             }
+            
+            drawFrame();
+            drawNextFrame(); 
 
         } catch (e) {
             alert("socket on message: " + e);
